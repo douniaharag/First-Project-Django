@@ -1,0 +1,9 @@
+name: Test with pytest
+      run: |
+        pip install pytest
+        pytest
+
+
+    - name: Run Tests
+      run: |
+        python manage.py tests 
